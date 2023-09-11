@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1C1B20"
-    tools:context=".MainActivity">
-
+    tools:context=".loginActivity">
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
@@ -15,13 +13,11 @@
         app:srcCompat="@drawable/guni_pink_logo"
 
         />
-
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/materialCardView"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
-        app:cardBackgroundColor="#5EFFFFFF"
         app:cardCornerRadius="20dp"
         app:cardElevation="20dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,17 +26,13 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#2AFFFFFF"
             android:padding="20dp">
-
 
             <TextView
                 android:id="@+id/textViewEmailID"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:foregroundTint="#FFFFFF"
                 android:text="Email ID"
-                android:textColor="#FFFFFF"
                 app:layout_constraintBaseline_toBaselineOf="@+id/editTextTextEmailAddress"
                 app:layout_constraintStart_toStartOf="parent" />
 
@@ -50,7 +42,6 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textEmailAddress"
-                android:textColor="#FFFFFF"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textViewEmailID"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -60,7 +51,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Password"
-                android:textColor="#FFFFFF"
                 app:layout_constraintBaseline_toBaselineOf="@+id/editTextTextPassword"
                 app:layout_constraintStart_toStartOf="parent" />
 
@@ -70,7 +60,6 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPassword"
-                android:textColor="#FFFFFF"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textView2"
                 app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
@@ -81,7 +70,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:text="Forgot Password?"
-                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -107,7 +95,6 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="20dp"
         android:text="Dont have an account?"
-        android:textColor="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/materialCardView" />
 
@@ -115,12 +102,11 @@
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="50dp"
         android:layout_marginTop="7dp"
         android:background="#00ffffff"
         android:text="SIGN UP"
         android:textColor="#FF1493"
         app:layout_constraintStart_toEndOf="@+id/textView6"
         app:layout_constraintTop_toBottomOf="@+id/materialCardView" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
