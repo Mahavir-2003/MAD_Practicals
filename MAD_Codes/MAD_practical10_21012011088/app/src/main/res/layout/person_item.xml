@@ -45,7 +45,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:text="Umang"
+                android:text="Mahavir"
                 android:textSize="20dp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toTopOf="@+id/textView_no"
@@ -66,7 +66,7 @@
                 android:id="@+id/textView_email"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="umangraval0365@gmail.com"
+                android:text="patelMahavir@gmail.com"
                 app:layout_constraintBottom_toTopOf="@+id/textView_address"
                 app:layout_constraintStart_toStartOf="@+id/textView_name"
                 app:layout_constraintTop_toBottomOf="@+id/textView_no" />
